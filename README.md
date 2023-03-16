@@ -27,3 +27,12 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+## GITHUB LINK
+(https://github.com/GoldenDev1002)
+
+
+# GITHUB PAGES LINK 
+(https://goldendev1002.github.io/individual-coursework/)
+
