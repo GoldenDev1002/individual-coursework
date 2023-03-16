@@ -1,0 +1,107 @@
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+#img {
+  width: 200px;
+  height: 200px;
+}
+
+.btnColor {
+  background-color: aqua;
+  padding: 2px;
+  width: 100px;
+  height: 50px;
+}
+
+.btnColor:disabled {
+  background-color: aqua;
+}
+
+#fullinfo {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+}
+
+.columns {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#sort-section{
+  margin-top: 50px;
+  margin-left: -10px;
+}
+
+#lessonSection{
+  border-left: 2px solid rgb(185, 182, 182);
+  padding: 3rem;
+}
+
+#sitename{
+  margin-top: -20px;
+  text-align: center;
+  padding-left: 25rem;
+ 
+}
+.flex-items{
+display:flex;
+}
+
+.numberInput{
+padding-right: 20px;
+}
+
+.cards{
+height: 500px;
+width: 300px;
+}
+
+.cards img{
+height: 300px;
+width: 300px;
+}
+
+.lessonSpace{
+display:flex;
+
+}
+
+#sortSection{
+height: 400px;
+width: 200px;
+background-color: pink;
+}
